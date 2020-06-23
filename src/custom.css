@@ -1,0 +1,63 @@
+
+*, *::before, *::after {
+    box-sizing: border-box
+}
+
+.label {
+    font-size: 12px;
+    font-weight: normal
+}
+
+legend {
+    color: #fff
+}
+
+.ticker-control {
+    font-size: 12px;
+    height: 25px;
+}
+
+.ticker-top-panel {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #323235
+}
+
+.stock-widget {
+    position: relative;
+}
+
+.glyphicon-tag {
+    color: #57575a;
+}
+
+.popover {
+    width: 250px;
+    height: auto;
+    color: #1a1c20
+}
+
+.form-inline small {
+    font-size: 100%
+}
+
+/* Styles for custom scrollbar */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scatter .highcharts-yaxis-grid, .scatter .highcharts-xaxis-grid, .scatter .highcharts-xaxis {
+    display: none !important;
+}
+
+/*
+::-webkit-scrollbar-track {
+    background: #333;
+}
+::-webkit-scrollbar-thumb {
+    background: #444;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+*/
